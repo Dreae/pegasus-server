@@ -1,0 +1,30 @@
+{
+  "name": "pegasus-server",
+  "version": "1.0.0",
+  "description": "Server for saving Pegasus password profiles",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreae/pegasus-server.git"
+  },
+  "author": "Dreae <dreae@dreae.onl>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Dreae/pegasus-server/issues"
+  },
+  "homepage": "https://github.com/Dreae/pegasus-server#readme",
+  "devDependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/express": "^4.0.34",
+    "@types/redis": "^0.12.32",
+    "typescript": "^2.0.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "redis": "^2.6.3"
+  }
+}
